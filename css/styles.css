@@ -1,0 +1,87 @@
+
+html {
+  height: 100%;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.card-text {
+  color: #808596;
+}
+
+.card-body-last {
+  background-color: #f8f9fe;
+  border: 1px solid #f8f9fe;
+  border-radius: 10px 10px;
+  margin: 10px;
+  /* width: 98%; */
+}
+
+.card-body-last-icon {
+  margin: 0 10px 10px 0;
+  padding-left: 10px;
+  width: 18%;
+}
+.card-subscription {
+  display: inline-block;
+}
+
+.card-subscription-title {
+  position: relative;
+  top: 15px;
+}
+
+.card-subscription-text {
+  color: #808596;
+  position: relative;
+  top: 8px;
+}
+
+.card-subscription p {
+  font-size: 15px;
+}
+
+.card-body-last-link {
+  bottom: 2px;
+  color: #4e41c2;
+  margin: 0 10px 0 20px;
+}
+
+.buttons-order {
+  height: 80px;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+  width: 234px;
+}
+
+.buttons-order .btn:nth-child(1) {
+  background-color: #382ae1;
+  border-radius: 10px 10px;
+  width: 100%;
+}
+
+.buttons-order a:nth-child(1) {
+  color: #fff;
+}
+
+.buttons-order a:nth-child(2) {
+  color: #9095ad;
+}
+
+@media(max-width: 900px) {
+  body {
+    background-attachment: fixed;
+    background-color: #e0e8ff;
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    min-height: 100%;
+  }
+}
